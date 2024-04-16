@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Personal info and academic info suite]" guice-stage="DEVELOPMENT">
+  <listeners>
+    <listener class-name="utils.listeners.TestListener"/>
+  </listeners>
+  <test thread-count="5" name="Personal info test(failed)">
+    <classes>
+      <class name="tests.personalInfo">
+        <methods>
+          <include name="getBasicPage"/>
+          <include name="validateNegativePersonalInfo" invocation-numbers="0"/>
+          <include name="doLogIn"/>
+          <include name="clickonBoardAcademicInfoPage"/>
+          <include name="teardown"/>
+          <include name="classLevelSetup"/>
+          <include name="initDriver"/>
+          <include name="tearDown"/>
+          <include name="getAdmissionsServicesMastersProductsPage"/>
+        </methods>
+      </class> <!-- tests.personalInfo -->
+    </classes>
+  </test> <!-- Personal info test(failed) -->
+  <test thread-count="5" name="Academic info test(failed)">
+    <classes>
+      <class name="tests.postGraduate">
+        <methods>
+          <include name="clickAddDetailsAndPostGrad"/>
+          <include name="validateNegativePostGradInfo"/>
+          <include name="teardown"/>
+          <include name="classLevelSetup"/>
+        </methods>
+      </class> <!-- tests.postGraduate -->
+      <class name="tests.plusTwo">
+        <methods>
+          <include name="teardown"/>
+          <include name="classLevelSetup"/>
+          <include name="validateNegativePlus2GradeInfo"/>
+          <include name="clickAddDetailsAndPlus2Grade"/>
+        </methods>
+      </class> <!-- tests.plusTwo -->
+      <class name="tests.sSLC">
+        <methods>
+          <include name="validateNegativeTenthGradeInfo"/>
+          <include name="teardown"/>
+          <include name="clickAddDetailsAndTenthGrade"/>
+          <include name="classLevelSetup"/>
+        </methods>
+      </class> <!-- tests.sSLC -->
+      <class name="tests.diploma">
+        <methods>
+          <include name="validateNegativeDiplomaInfo"/>
+          <include name="teardown"/>
+          <include name="classLevelSetup"/>
+        </methods>
+      </class> <!-- tests.diploma -->
+      <class name="tests.underGraduate">
+        <methods>
+          <include name="teardown"/>
+          <include name="validateNegativeUnderGradInfo"/>
+          <include name="classLevelSetup"/>
+          <include name="clickAddDetailsAndUnderGrad"/>
+        </methods>
+      </class> <!-- tests.underGraduate -->
+    </classes>
+  </test> <!-- Academic info test(failed) -->
+</suite> <!-- Failed suite [Personal info and academic info suite] -->

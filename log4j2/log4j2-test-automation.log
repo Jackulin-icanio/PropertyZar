@@ -1,0 +1,18 @@
+[INFO ] 2024-04-16 11:00:43.063 [main] Log - I am in onStart method Login functionality
+[INFO ] 2024-04-16 11:00:45.563 [main] Log - UserInformation test is starting.
+[INFO ] 2024-04-16 11:00:49.375 [main] Log - UserInformation test is succeed.
+[INFO ] 2024-04-16 11:00:49.377 [main] Log - doLogIn test is starting.
+[INFO ] 2024-04-16 11:00:57.209 [main] Log - doLogIn test is succeed.
+[INFO ] 2024-04-16 11:00:57.210 [main] Log - CustomerInformation test is starting.
+[INFO ] 2024-04-16 11:01:00.237 [main] Log - CustomerInformation test is succeed.
+[INFO ] 2024-04-16 11:01:00.238 [main] Log - PlanSelection test is starting.
+[INFO ] 2024-04-16 11:02:01.111 [main] Log - PlanSelection test is succeed.
+[INFO ] 2024-04-16 11:02:01.112 [main] Log - PlanOverview test is starting.
+[INFO ] 2024-04-16 11:02:01.181 [main] Log - PlanOverview test is succeed.
+[INFO ] 2024-04-16 11:02:01.182 [main] Log - ApplicationCustomization test is starting.
+[INFO ] 2024-04-16 11:02:02.272 [main] Log - ApplicationCustomization test is failed.
+[INFO ] 2024-04-16 11:02:02.449 [main] Log - I am in onFinish method Login functionality
+[INFO ] 2024-04-16 11:02:02.721 [main] Log - I am in onStart method Login functionality
+[INFO ] 2024-04-16 11:02:02.722 [main] Log - Login test is starting.
+[INFO ] 2024-04-16 11:02:03.790 [main] Log - Login test is succeed.
+[INFO ] 2024-04-16 11:02:03.791 [main] Log - I am in onFinish method Login functionality

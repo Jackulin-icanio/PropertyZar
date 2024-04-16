@@ -1,0 +1,49 @@
+[INFO ] 2022-05-02 09:34:12.348 [main] Log - I am in onStart method Login functionality
+[INFO ] 2022-05-02 09:34:14.522 [main] Log - Tests is starting!
+[INFO ] 2022-05-02 09:34:15.125 [main] Log - doLogIn test is starting.
+[INFO ] 2022-05-02 09:35:18.387 [main] Log - doLogIn test is failed.
+[INFO ] 2022-05-02 09:35:18.575 [main] Log - doLogIn test is starting.
+[INFO ] 2022-05-02 09:36:20.488 [main] Log - doLogIn test is succeed.
+[INFO ] 2022-05-02 09:36:20.489 [main] Log - Tests are ending!
+[INFO ] 2022-05-02 09:36:20.491 [main] Log - I am in onFinish method Login functionality
+[INFO ] 2022-05-02 09:36:20.929 [main] Log - I am in onStart method Login functionality
+[INFO ] 2022-05-02 09:36:20.943 [main] Log - Tests is starting!
+[INFO ] 2022-05-02 09:36:20.945 [main] Log - getTermsAndConditionsPage test is starting.
+[INFO ] 2022-05-02 09:38:21.519 [main] Log - getTermsAndConditionsPage test is succeed.
+[INFO ] 2022-05-02 09:38:21.520 [main] Log - Tests are ending!
+[INFO ] 2022-05-02 09:38:21.520 [main] Log - I am in onFinish method Login functionality
+[INFO ] 2022-05-02 09:38:21.562 [main] Log - I am in onStart method Personal info test
+[INFO ] 2022-05-02 09:38:21.566 [main] Log - Tests is starting!
+[INFO ] 2022-05-02 09:38:21.566 [main] Log - validateNegativePersonalInfo test is starting.
+[INFO ] 2022-05-02 09:39:50.378 [main] Log - validateNegativePersonalInfo test is failed.
+[INFO ] 2022-05-02 09:39:50.608 [main] Log - validatePositivePersonalInfo test is starting.
+[INFO ] 2022-05-02 09:39:50.609 [main] Log - validatePositivePersonalInfo test is skipped.
+[INFO ] 2022-05-02 09:39:50.609 [main] Log - Tests are ending!
+[INFO ] 2022-05-02 09:39:50.610 [main] Log - I am in onFinish method Personal info test
+[INFO ] 2022-05-02 09:39:50.640 [main] Log - I am in onStart method Academic test
+[INFO ] 2022-05-02 09:39:50.644 [main] Log - Tests is starting!
+[INFO ] 2022-05-02 09:39:50.644 [main] Log - validateNegativeTenthGradeInfo test is starting.
+[INFO ] 2022-05-02 09:40:50.927 [main] Log - validateNegativeTenthGradeInfo test is failed.
+[INFO ] 2022-05-02 09:40:51.116 [main] Log - validatePositiveTenthGradeInfo test is starting.
+[INFO ] 2022-05-02 09:40:51.117 [main] Log - validatePositiveTenthGradeInfo test is skipped.
+[INFO ] 2022-05-02 09:40:51.118 [main] Log - Tests are ending!
+[INFO ] 2022-05-02 09:40:51.119 [main] Log - Tests is starting!
+[INFO ] 2022-05-02 09:40:51.120 [main] Log - validateNegativePlusTwoGradeInfo test is starting.
+[INFO ] 2022-05-02 09:41:51.202 [main] Log - validateNegativePlusTwoGradeInfo test is failed.
+[INFO ] 2022-05-02 09:41:51.396 [main] Log - validatePositivePlusTwoGradeInfo test is starting.
+[INFO ] 2022-05-02 09:41:51.397 [main] Log - validatePositivePlusTwoGradeInfo test is skipped.
+[INFO ] 2022-05-02 09:41:51.399 [main] Log - Tests are ending!
+[INFO ] 2022-05-02 09:41:51.400 [main] Log - Tests is starting!
+[INFO ] 2022-05-02 09:41:51.401 [main] Log - validateNegativeDiplomaInfo test is starting.
+[INFO ] 2022-05-02 09:42:51.847 [main] Log - validateNegativeDiplomaInfo test is failed.
+[INFO ] 2022-05-02 09:42:52.028 [main] Log - validatePositiveDiplomaInfo test is starting.
+[INFO ] 2022-05-02 09:42:52.029 [main] Log - validatePositiveDiplomaInfo test is skipped.
+[INFO ] 2022-05-02 09:42:52.031 [main] Log - Tests are ending!
+[INFO ] 2022-05-02 09:42:52.032 [main] Log - Tests is starting!
+[INFO ] 2022-05-02 09:42:52.033 [main] Log - validateNegativeUnderGradInfo test is starting.
+[INFO ] 2022-05-02 09:43:52.235 [main] Log - validateNegativeUnderGradInfo test is failed.
+[INFO ] 2022-05-02 09:43:52.427 [main] Log - validatePositiveUnderGradInfo test is starting.
+[INFO ] 2022-05-02 09:43:52.427 [main] Log - validatePositiveUnderGradInfo test is skipped.
+[INFO ] 2022-05-02 09:43:52.430 [main] Log - Tests are ending!
+[INFO ] 2022-05-02 09:43:52.430 [main] Log - Tests is starting!
+[INFO ] 2022-05-02 09:43:52.431 [main] Log - validateNegativePostGradInfo test is starting.
