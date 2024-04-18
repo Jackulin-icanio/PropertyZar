@@ -1,11 +1,10 @@
 package utils.listeners;
 
-import java.awt.Desktop;
 //import java.awt.Desktop;
-import java.io.File;
-import java.io.IOException;
-import java.util.Date;
 
+import com.aventstack.extentreports.MediaEntityBuilder;
+import com.aventstack.extentreports.Status;
+import helper.globalProperties;
 import org.apache.commons.io.FileUtils;
 import org.openqa.selenium.OutputType;
 import org.openqa.selenium.TakesScreenshot;
@@ -13,12 +12,11 @@ import org.openqa.selenium.WebDriver;
 import org.testng.ITestContext;
 import org.testng.ITestListener;
 import org.testng.ITestResult;
-
-import com.aventstack.extentreports.MediaEntityBuilder;
-import com.aventstack.extentreports.Status;
-
-import helper.globalProperties;
 import utils.logs.Log;
+
+import java.io.File;
+import java.io.IOException;
+import java.util.Date;
 
 public class TestListener  implements ITestListener {
 

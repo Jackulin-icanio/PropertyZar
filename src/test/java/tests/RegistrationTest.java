@@ -1,5 +1,6 @@
 package tests;
 
+import common.commonFunctions;
 import helper.globalProperties;
 import helper.seleniumHelper;
 import org.openqa.selenium.WindowType;
@@ -17,7 +18,8 @@ import static helper.globalProperties.driver;
 public class RegistrationTest {
 
     String baseUrl = globalProperties.getValueFromInputData("environment", "QABase");
-    RegistrationPage regPage;
+    RegistrationPage regPage = new RegistrationPage();
+    commonFunctions CommonFunctions = new commonFunctions();
 
     @BeforeTest
     public void initDriver() throws IOException {
@@ -35,7 +37,6 @@ public class RegistrationTest {
         String userURL = baseUrl + regUrl;
         globalProperties.etTest = globalProperties.etSuite.createNode("User Information");
         globalProperties.driver.navigate().to(userURL);
-        regPage = new RegistrationPage();
         regPage.userInformation();
     }
 
@@ -45,14 +46,13 @@ public class RegistrationTest {
         driver.switchTo().newWindow(WindowType.TAB);
         String yopURL = globalProperties.getValueFromInputData("environment", "YopURL");
         globalProperties.driver.navigate().to(yopURL);
-        regPage.YopMail();
+        regPage.RegistrationYopMail();
         regPage.Password();
     }
 
     @Test(priority = 3)
     public void CustomerInformation() throws InterruptedException, AWTException {
         globalProperties.etTest = globalProperties.etSuite.createNode("Customer Information");
-
         regPage.CustomerInformation();
 
     }
@@ -60,7 +60,6 @@ public class RegistrationTest {
     @Test(priority = 4)
     public void PlanSelection() throws InterruptedException, AWTException {
         globalProperties.etTest = globalProperties.etSuite.createNode("Plan Selection");
-
         regPage.PlanSelection();
 
     }
@@ -70,7 +69,6 @@ public class RegistrationTest {
         globalProperties.etTest = globalProperties.etSuite.createNode("Plan Overview");
 
         regPage.PlanOverview();
-
     }
 
     @Test(priority = 6)

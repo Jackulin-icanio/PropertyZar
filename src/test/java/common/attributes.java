@@ -34,7 +34,7 @@ public class attributes {
         public static final String howHear = "//input[@id='howHear']";
         public static final String howHearData = "//li[contains(text(),'Podcast - FourandHalf')]";
         public static final String nextStep = "//*[@type='submit']";
-        public static final String planNextStep = "//button[contains(@class, 'MuiButtonBase-root MuiButton-root MuiButton-contained MuiButton-containedPrimary')]";
+        public static final String planNextStep = "/html/body/div[1]/div[2]/div/div/div[3]/div/button[2]";
         public static final String miniIcon = "//button[@id='miniLogo' and @type='button']";
         public static final String fullLogo = "//button[@id='fullLogo' and @type='button']";
         public static final String preview = "//button[contains(text(), 'Preview')]";
@@ -47,7 +47,9 @@ public class attributes {
         public static final String emailID = "//input[@id='emailId']";
         public static final String password = "//input[@id='password']";
         public static final String hideIcon = "//button[@aria-label='toggle password visibility']";
-
-
+        public static final String keepmeSign = "//input[@name='keepSignInChecked']";
+        public static final String loginbtn = "//button[text()='Login']";
+        public static final String otp = "//input[@name='otp']";
+        public static final String submit = "//button[text()='Submit']";
     }
-    }
+}

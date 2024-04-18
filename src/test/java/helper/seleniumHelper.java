@@ -20,10 +20,8 @@ import org.openqa.selenium.support.ui.WebDriverWait;
 import org.testng.Reporter;
 
 import java.io.File;
-import java.io.FileInputStream;
 import java.io.IOException;
 import java.time.Duration;
-import java.util.Properties;
 import java.util.Set;
 
 
@@ -76,9 +74,9 @@ public class seleniumHelper {
             WebDriverWait wait = new WebDriverWait(globalProperties.driver, Duration.ofSeconds(1));
             wait.until(ExpectedConditions.visibilityOf(element));
             return element.isDisplayed();
-        } catch (org.openqa.selenium.NoSuchElementException
-                | org.openqa.selenium.StaleElementReferenceException
-                | org.openqa.selenium.TimeoutException e) {
+        } catch (NoSuchElementException
+                 | StaleElementReferenceException
+                 | TimeoutException e) {
             return false;
         }
     }

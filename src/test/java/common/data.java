@@ -1,11 +1,9 @@
 package common;
 
-import java.io.IOException;
-
-import org.openqa.selenium.Keys;
+import helper.dataInputProvider;
 import org.testng.annotations.DataProvider;
 
-import helper.dataInputProvider;
+import java.io.IOException;
 
 public class data {
 
@@ -33,16 +31,16 @@ public class data {
     @DataProvider(name = "LoginData")
     public static Object[][] getData() throws IOException {
 
-        dataInputProvider excelDataDrivenFramework = new dataInputProvider(data.Common.testDataPath);
+        dataInputProvider excelDataDrivenFramework = new dataInputProvider(Common.testDataPath);
 
-        int totalrows = excelDataDrivenFramework.getRowCount(data.Common.sheet_Name);
-        int totalcols = excelDataDrivenFramework.getCellCount(data.Common.sheet_Name, 1);
+        int totalrows = excelDataDrivenFramework.getRowCount(Common.sheet_Name);
+        int totalcols = excelDataDrivenFramework.getCellCount(Common.sheet_Name, 1);
 
         String[][] loginData = new String[totalrows][totalcols];
 
         for (int i = 1; i <= totalrows; i++) {
             for (int j = 0; j < totalcols; j++) {
-                loginData[i - 1][j] = excelDataDrivenFramework.getCellData(data.Common.sheet_Name, i, j);
+                loginData[i - 1][j] = excelDataDrivenFramework.getCellData(Common.sheet_Name, i, j);
             }
 
         }

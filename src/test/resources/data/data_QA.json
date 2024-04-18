@@ -8,7 +8,7 @@
   "UserInformation": {
     "firstName": "PropertyZar",
     "lastName": "Testing",
-    "email": "man45@yopmail.com",
+    "email": "man96@yopmail.com",
     "Password": "Test@123456",
     "ConfirmPassword": "Test@123456"
   },
@@ -20,8 +20,8 @@
     "howHear": "Podcast - FourandHalf"
   },
   "ApplicationCustomization": {
-    "Icon": "/home/icanio10108/Downloads/UI/propertyZar-TestProject/Image/imm.png",
-    "Logo": "/home/icanio10108/Downloads/UI/propertyZar-TestProject/Image/imm9.jpeg"
+    "Icon": "src/test/java/Image/imm.png",
+    "Logo": "src/test/java/Image/imm9.jpeg"
   },
   "Onboarding": {
     "Email": "sowmi09@yopmail.com",

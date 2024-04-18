@@ -1,16 +1,16 @@
 package utils.extentreports;
 
-import java.io.File;
-import java.io.IOException;
-import java.text.DateFormat;
-import java.text.SimpleDateFormat;
-import java.util.Date;
-
 import com.aventstack.extentreports.AnalysisStrategy;
 import com.aventstack.extentreports.ExtentReports;
 import com.aventstack.extentreports.reporter.ExtentSparkReporter;
 import com.aventstack.extentreports.reporter.configuration.Theme;
 import com.aventstack.extentreports.reporter.configuration.ViewName;
+
+import java.io.File;
+import java.io.IOException;
+import java.text.DateFormat;
+import java.text.SimpleDateFormat;
+import java.util.Date;
 
 
 
@@ -19,7 +19,7 @@ public class ExtentManager  {
 //	public static ExtentTestManager extentTestManager;
 
 	public synchronized static ExtentReports createExtentReports() {
-		String reportFileName = "Unified Automation Testing Report";
+		String reportFileName = "PropertyZar Automation Testing Report";
 		String reportPath = System.getProperty("user.dir") + "/test-output/" + getCurrentDate();
 		File dir = new File(reportPath);
 		if (!dir.exists())

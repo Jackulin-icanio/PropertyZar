@@ -1,22 +1,18 @@
 package helper;
 
-import java.io.FileReader;
-import java.util.HashMap;
-import java.util.Locale;
-import java.util.Map;
-
-import common.commonFunctions;
-import org.json.simple.JSONObject;
-import org.json.simple.parser.JSONParser;
-import org.openqa.selenium.WebDriver;
-
 import com.aventstack.extentreports.ExtentReports;
 import com.aventstack.extentreports.ExtentTest;
 import com.aventstack.extentreports.Status;
 import com.google.gson.Gson;
-
-
+import common.commonFunctions;
 import common.data;
+import org.json.simple.JSONObject;
+import org.json.simple.parser.JSONParser;
+import org.openqa.selenium.WebDriver;
+
+import java.io.FileReader;
+import java.util.HashMap;
+import java.util.Map;
 
 public class globalProperties {
 

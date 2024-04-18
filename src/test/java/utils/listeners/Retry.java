@@ -1,10 +1,10 @@
 package utils.listeners;
 
-import static utils.extentreports.ExtentTestManager.getTest;
-
 import com.aventstack.extentreports.Status;
 import org.testng.IRetryAnalyzer;
 import org.testng.ITestResult;
+
+import static utils.extentreports.ExtentTestManager.getTest;
 
 public class Retry implements IRetryAnalyzer {
 
