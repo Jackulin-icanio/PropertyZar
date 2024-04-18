@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Register Suite">
+    <listeners>
+        <listener class-name="utils.listeners.TestListener" />
+    </listeners>
+
+    <test name="Login functionality">
+        <classes>
+            <class name="tests.OnboardingTest" />
+        </classes>
+    </test> <!-- Test -->
+</suite> <!-- Suite -->
