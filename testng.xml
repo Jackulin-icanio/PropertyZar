@@ -4,11 +4,11 @@
     <suite-files>
 <!--        <suite-file path="Register.xml"/>-->
         <suite-file path="Login.xml"/>
+        <suite-file path="Owner.xml"/>
+        <suite-file path="HOA.xml"/>
+        <suite-file path="Properties.xml"/>
+        <suite-file path="Buildings.xml"/>
+        <suite-file path="Units.xml"/>
 
     </suite-files>
-</suite> <!-- Suite -->
-
-
-
-
-
+</suite> 

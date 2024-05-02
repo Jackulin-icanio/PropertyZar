@@ -80,6 +80,7 @@ public class OnboardingPage {
         elm_refresh = seleniumHelper.waitForElement(attributes.YopMail.refresh, globalProperties.waitType.explicit,
                 globalProperties.expectedConditions.presenceOfElementLocated, 60, 2);
         elm_refresh.click();
+        Thread.sleep(3000);
 
         elm_switchframe = seleniumHelper.waitForElement(attributes.YopMail.switchframe, globalProperties.waitType.explicit,
                 globalProperties.expectedConditions.presenceOfElementLocated, 60, 2);

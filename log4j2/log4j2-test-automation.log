@@ -1,69 +1,110 @@
-[INFO ] 2024-04-18 11:20:15.480 [main] Log - I am in onStart method Login functionality
-[INFO ] 2024-04-18 11:20:15.508 [main] Log - Login test is starting.
-[INFO ] 2024-04-18 11:20:15.513 [main] Log - Login test is failed.
-[INFO ] 2024-04-18 11:20:15.515 [main] Log - Login test is failed.
-[INFO ] 2024-04-18 11:20:15.516 [main] Log - I am in onFinish method Login functionality
-[INFO ] 2024-04-18 11:21:03.408 [main] Log - I am in onStart method Login functionality
-[INFO ] 2024-04-18 11:21:05.746 [main] Log - UserInformation test is starting.
-[INFO ] 2024-04-18 11:21:09.439 [main] Log - UserInformation test is succeed.
-[INFO ] 2024-04-18 11:21:09.441 [main] Log - doLogIn test is starting.
-[INFO ] 2024-04-18 11:21:14.633 [main] Log - doLogIn test is failed.
-[INFO ] 2024-04-18 11:21:14.885 [main] Log - CustomerInformation test is starting.
-[INFO ] 2024-04-18 11:23:01.446 [main] Log - I am in onStart method Login functionality
-[INFO ] 2024-04-18 11:23:03.346 [main] Log - UserInformation test is starting.
-[INFO ] 2024-04-18 11:23:06.564 [main] Log - UserInformation test is succeed.
-[INFO ] 2024-04-18 11:23:06.566 [main] Log - doLogIn test is starting.
-[INFO ] 2024-04-18 11:23:16.558 [main] Log - doLogIn test is failed.
-[INFO ] 2024-04-18 11:23:16.750 [main] Log - CustomerInformation test is starting.
-[INFO ] 2024-04-18 11:25:17.353 [main] Log - CustomerInformation test is failed.
-[INFO ] 2024-04-18 11:25:17.357 [main] Log - CustomerInformation test is failed.
-[INFO ] 2024-04-18 11:25:17.365 [main] Log - I am in onFinish method Login functionality
-[INFO ] 2024-04-18 11:33:04.953 [main] Log - I am in onStart method Login functionality
-[INFO ] 2024-04-18 11:33:06.827 [main] Log - UserInformation test is starting.
-[INFO ] 2024-04-18 11:33:11.870 [main] Log - UserInformation test is succeed.
-[INFO ] 2024-04-18 11:33:11.874 [main] Log - doLogIn test is starting.
-[INFO ] 2024-04-18 11:33:22.860 [main] Log - doLogIn test is failed.
-[INFO ] 2024-04-18 11:33:23.060 [main] Log - CustomerInformation test is starting.
-[INFO ] 2024-04-18 11:33:55.560 [main] Log - I am in onStart method Login functionality
-[INFO ] 2024-04-18 11:33:57.414 [main] Log - UserInformation test is starting.
-[INFO ] 2024-04-18 11:34:01.031 [main] Log - UserInformation test is succeed.
-[INFO ] 2024-04-18 11:34:01.035 [main] Log - doLogIn test is starting.
-[INFO ] 2024-04-18 11:34:08.699 [main] Log - doLogIn test is failed.
-[INFO ] 2024-04-18 11:34:08.873 [main] Log - CustomerInformation test is starting.
-[INFO ] 2024-04-18 11:34:18.591 [main] Log - CustomerInformation test is succeed.
-[INFO ] 2024-04-18 11:34:18.592 [main] Log - PlanSelection test is starting.
-[INFO ] 2024-04-18 11:34:21.211 [main] Log - PlanSelection test is succeed.
-[INFO ] 2024-04-18 11:34:21.213 [main] Log - PlanOverview test is starting.
-[INFO ] 2024-04-18 11:34:21.282 [main] Log - PlanOverview test is succeed.
-[INFO ] 2024-04-18 11:34:21.283 [main] Log - ApplicationCustomization test is starting.
-[INFO ] 2024-04-18 11:34:25.044 [main] Log - ApplicationCustomization test is succeed.
-[INFO ] 2024-04-18 11:34:25.046 [main] Log - I am in onFinish method Login functionality
-[INFO ] 2024-04-18 11:34:25.291 [main] Log - I am in onStart method Login functionality
-[INFO ] 2024-04-18 11:34:25.292 [main] Log - Login test is starting.
-[INFO ] 2024-04-18 11:34:26.901 [main] Log - Login test is succeed.
-[INFO ] 2024-04-18 11:34:26.902 [main] Log - doLogIn test is starting.
-[INFO ] 2024-04-18 11:36:48.532 [main] Log - doLogIn test is failed.
-[INFO ] 2024-04-18 11:36:48.539 [main] Log - doLogIn test is failed.
-[INFO ] 2024-04-18 11:36:48.544 [main] Log - I am in onFinish method Login functionality
-[INFO ] 2024-04-18 11:39:01.421 [main] Log - I am in onStart method Login functionality
-[INFO ] 2024-04-18 11:39:03.324 [main] Log - Login test is starting.
-[INFO ] 2024-04-18 11:39:06.815 [main] Log - Login test is succeed.
-[INFO ] 2024-04-18 11:39:06.819 [main] Log - doLogIn test is starting.
-[INFO ] 2024-04-18 11:39:21.326 [main] Log - doLogIn test is succeed.
-[INFO ] 2024-04-18 11:39:21.327 [main] Log - I am in onFinish method Login functionality
-[INFO ] 2024-04-18 11:42:50.153 [main] Log - I am in onStart method Login functionality
-[INFO ] 2024-04-18 11:42:52.004 [main] Log - Login test is starting.
-[INFO ] 2024-04-18 11:42:56.823 [main] Log - Login test is succeed.
-[INFO ] 2024-04-18 11:42:56.825 [main] Log - doLogIn test is starting.
-[INFO ] 2024-04-18 11:43:50.729 [main] Log - I am in onStart method Login functionality
-[INFO ] 2024-04-18 11:43:52.578 [main] Log - Login test is starting.
-[INFO ] 2024-04-18 11:43:55.911 [main] Log - Login test is succeed.
-[INFO ] 2024-04-18 11:43:55.913 [main] Log - doLogIn test is starting.
-[INFO ] 2024-04-18 11:44:07.134 [main] Log - doLogIn test is succeed.
-[INFO ] 2024-04-18 11:44:07.135 [main] Log - I am in onFinish method Login functionality
-[INFO ] 2024-04-18 11:48:13.834 [main] Log - I am in onStart method Login functionality
-[INFO ] 2024-04-18 11:48:15.659 [main] Log - Login test is starting.
-[INFO ] 2024-04-18 11:48:19.042 [main] Log - Login test is succeed.
-[INFO ] 2024-04-18 11:48:19.045 [main] Log - doLogIn test is starting.
-[INFO ] 2024-04-18 11:48:27.987 [main] Log - doLogIn test is succeed.
-[INFO ] 2024-04-18 11:48:27.988 [main] Log - I am in onFinish method Login functionality
+[INFO ] 2024-05-02 10:23:34.333 [main] Log - I am in onStart method Login functionality
+[INFO ] 2024-05-02 10:23:37.003 [main] Log - Login test is starting.
+[INFO ] 2024-05-02 10:23:47.042 [main] Log - Login test is succeed.
+[INFO ] 2024-05-02 10:23:47.052 [main] Log - doLogIn test is starting.
+[INFO ] 2024-05-02 10:23:58.053 [main] Log - doLogIn test is succeed.
+[INFO ] 2024-05-02 10:23:58.054 [main] Log - I am in onFinish method Login functionality
+[INFO ] 2024-05-02 10:23:58.306 [main] Log - I am in onStart method Create New Unit
+[INFO ] 2024-05-02 10:23:58.307 [main] Log - createBuildings test is starting.
+[INFO ] 2024-05-02 10:25:00.337 [main] Log - createBuildings test is succeed.
+[INFO ] 2024-05-02 10:25:00.338 [main] Log - I am in onFinish method Create New Unit
+[INFO ] 2024-05-02 10:25:00.370 [main] Log - I am in onStart method Create New Applicant
+[INFO ] 2024-05-02 10:25:00.371 [main] Log - createApplicant test is starting.
+[INFO ] 2024-05-02 10:26:06.688 [main] Log - createApplicant test is succeed.
+[INFO ] 2024-05-02 10:26:06.688 [main] Log - I am in onFinish method Create New Applicant
+[INFO ] 2024-05-02 10:31:20.207 [main] Log - I am in onStart method Login functionality
+[INFO ] 2024-05-02 10:31:22.205 [main] Log - Login test is starting.
+[INFO ] 2024-05-02 10:31:41.390 [main] Log - I am in onStart method Login functionality
+[INFO ] 2024-05-02 10:31:43.363 [main] Log - Login test is starting.
+[INFO ] 2024-05-02 10:32:03.474 [main] Log - Login test is succeed.
+[INFO ] 2024-05-02 10:32:03.477 [main] Log - doLogIn test is starting.
+[INFO ] 2024-05-02 10:32:23.326 [main] Log - doLogIn test is succeed.
+[INFO ] 2024-05-02 10:32:23.328 [main] Log - I am in onFinish method Login functionality
+[INFO ] 2024-05-02 10:32:23.540 [main] Log - I am in onStart method Create New Unit
+[INFO ] 2024-05-02 10:32:23.542 [main] Log - createBuildings test is starting.
+[INFO ] 2024-05-02 10:34:01.719 [main] Log - createBuildings test is succeed.
+[INFO ] 2024-05-02 10:34:01.720 [main] Log - I am in onFinish method Create New Unit
+[INFO ] 2024-05-02 10:34:01.754 [main] Log - I am in onStart method Create New Applicant
+[INFO ] 2024-05-02 10:34:01.755 [main] Log - createApplicant test is starting.
+[INFO ] 2024-05-02 10:35:05.954 [main] Log - createApplicant test is succeed.
+[INFO ] 2024-05-02 10:35:05.955 [main] Log - I am in onFinish method Create New Applicant
+[INFO ] 2024-05-02 10:40:53.402 [main] Log - I am in onStart method Login functionality
+[INFO ] 2024-05-02 10:40:55.356 [main] Log - Login test is starting.
+[INFO ] 2024-05-02 10:41:21.307 [main] Log - Login test is succeed.
+[INFO ] 2024-05-02 10:41:21.309 [main] Log - doLogIn test is starting.
+[INFO ] 2024-05-02 10:41:32.809 [main] Log - doLogIn test is succeed.
+[INFO ] 2024-05-02 10:41:32.810 [main] Log - I am in onFinish method Login functionality
+[INFO ] 2024-05-02 10:41:33.039 [main] Log - I am in onStart method Create New Unit
+[INFO ] 2024-05-02 10:41:33.040 [main] Log - createBuildings test is starting.
+[INFO ] 2024-05-02 10:41:44.019 [main] Log - createBuildings test is succeed.
+[INFO ] 2024-05-02 10:41:44.020 [main] Log - I am in onFinish method Create New Unit
+[INFO ] 2024-05-02 10:41:44.050 [main] Log - I am in onStart method Create New Applicant
+[INFO ] 2024-05-02 10:41:44.051 [main] Log - createApplicant test is starting.
+[INFO ] 2024-05-02 10:42:48.129 [main] Log - createApplicant test is succeed.
+[INFO ] 2024-05-02 10:42:48.130 [main] Log - I am in onFinish method Create New Applicant
+[INFO ] 2024-05-02 10:43:14.730 [main] Log - I am in onStart method Login functionality
+[INFO ] 2024-05-02 10:43:16.835 [main] Log - Login test is starting.
+[INFO ] 2024-05-02 10:43:34.744 [main] Log - Login test is succeed.
+[INFO ] 2024-05-02 10:43:34.747 [main] Log - doLogIn test is starting.
+[INFO ] 2024-05-02 10:43:45.297 [main] Log - doLogIn test is succeed.
+[INFO ] 2024-05-02 10:43:45.298 [main] Log - I am in onFinish method Login functionality
+[INFO ] 2024-05-02 10:43:45.604 [main] Log - I am in onStart method Create New Unit
+[INFO ] 2024-05-02 10:43:45.606 [main] Log - createBuildings test is starting.
+[INFO ] 2024-05-02 10:44:07.598 [main] Log - createBuildings test is succeed.
+[INFO ] 2024-05-02 10:44:07.599 [main] Log - I am in onFinish method Create New Unit
+[INFO ] 2024-05-02 10:44:07.635 [main] Log - I am in onStart method Create New Applicant
+[INFO ] 2024-05-02 10:44:07.637 [main] Log - createApplicant test is starting.
+[INFO ] 2024-05-02 10:50:43.503 [main] Log - I am in onStart method Login functionality
+[INFO ] 2024-05-02 10:50:45.582 [main] Log - Login test is starting.
+[INFO ] 2024-05-02 10:51:09.181 [main] Log - Login test is succeed.
+[INFO ] 2024-05-02 10:51:09.184 [main] Log - doLogIn test is starting.
+[INFO ] 2024-05-02 10:51:34.054 [main] Log - doLogIn test is succeed.
+[INFO ] 2024-05-02 10:51:34.055 [main] Log - I am in onFinish method Login functionality
+[INFO ] 2024-05-02 10:51:34.291 [main] Log - I am in onStart method Create New Unit
+[INFO ] 2024-05-02 10:51:34.292 [main] Log - createBuildings test is starting.
+[INFO ] 2024-05-02 10:51:51.743 [main] Log - createBuildings test is succeed.
+[INFO ] 2024-05-02 10:51:51.743 [main] Log - I am in onFinish method Create New Unit
+[INFO ] 2024-05-02 10:51:51.779 [main] Log - I am in onStart method Create New Applicant
+[INFO ] 2024-05-02 10:51:51.780 [main] Log - createApplicant test is starting.
+[INFO ] 2024-05-02 10:52:56.137 [main] Log - createApplicant test is succeed.
+[INFO ] 2024-05-02 10:52:56.138 [main] Log - I am in onFinish method Create New Applicant
+[INFO ] 2024-05-02 10:54:28.966 [main] Log - I am in onStart method Login functionality
+[INFO ] 2024-05-02 10:54:30.838 [main] Log - Login test is starting.
+[INFO ] 2024-05-02 10:54:34.219 [main] Log - Login test is succeed.
+[INFO ] 2024-05-02 10:54:34.222 [main] Log - doLogIn test is starting.
+[INFO ] 2024-05-02 10:54:46.622 [main] Log - doLogIn test is succeed.
+[INFO ] 2024-05-02 10:54:46.624 [main] Log - I am in onFinish method Login functionality
+[INFO ] 2024-05-02 10:54:46.811 [main] Log - I am in onStart method Create New Unit
+[INFO ] 2024-05-02 10:54:46.812 [main] Log - createBuildings test is starting.
+[INFO ] 2024-05-02 10:54:56.128 [main] Log - createBuildings test is succeed.
+[INFO ] 2024-05-02 10:54:56.129 [main] Log - I am in onFinish method Create New Unit
+[INFO ] 2024-05-02 10:54:56.158 [main] Log - I am in onStart method Create New Applicant
+[INFO ] 2024-05-02 10:54:56.159 [main] Log - createApplicant test is starting.
+[INFO ] 2024-05-02 10:56:00.482 [main] Log - createApplicant test is succeed.
+[INFO ] 2024-05-02 10:56:00.482 [main] Log - I am in onFinish method Create New Applicant
+[INFO ] 2024-05-02 12:20:12.900 [main] Log - I am in onStart method Login functionality
+[INFO ] 2024-05-02 12:20:14.967 [main] Log - Login test is starting.
+[INFO ] 2024-05-02 12:20:34.457 [main] Log - Login test is succeed.
+[INFO ] 2024-05-02 12:20:34.459 [main] Log - doLogIn test is starting.
+[INFO ] 2024-05-02 12:20:46.160 [main] Log - doLogIn test is succeed.
+[INFO ] 2024-05-02 12:20:46.162 [main] Log - I am in onFinish method Login functionality
+[INFO ] 2024-05-02 12:20:46.347 [main] Log - I am in onStart method Create New Owner
+[INFO ] 2024-05-02 12:20:46.348 [main] Log - createOwner test is starting.
+[INFO ] 2024-05-02 12:21:06.184 [main] Log - createOwner test is succeed.
+[INFO ] 2024-05-02 12:21:06.185 [main] Log - I am in onFinish method Create New Owner
+[INFO ] 2024-05-02 12:21:06.215 [main] Log - I am in onStart method Login functionality
+[INFO ] 2024-05-02 12:21:06.216 [main] Log - createHOA test is starting.
+[INFO ] 2024-05-02 12:21:17.112 [main] Log - createHOA test is succeed.
+[INFO ] 2024-05-02 12:21:17.112 [main] Log - I am in onFinish method Login functionality
+[INFO ] 2024-05-02 12:21:17.130 [main] Log - I am in onStart method Create New Property
+[INFO ] 2024-05-02 12:21:17.130 [main] Log - createProperties test is starting.
+[INFO ] 2024-05-02 12:21:41.817 [main] Log - createProperties test is succeed.
+[INFO ] 2024-05-02 12:21:41.818 [main] Log - I am in onFinish method Create New Property
+[INFO ] 2024-05-02 12:21:41.843 [main] Log - I am in onStart method Create New Building
+[INFO ] 2024-05-02 12:21:41.843 [main] Log - createBuildings test is starting.
+[INFO ] 2024-05-02 12:22:00.048 [main] Log - createBuildings test is succeed.
+[INFO ] 2024-05-02 12:22:00.048 [main] Log - I am in onFinish method Create New Building
+[INFO ] 2024-05-02 12:22:00.068 [main] Log - I am in onStart method Create New Unit
+[INFO ] 2024-05-02 12:22:00.069 [main] Log - createBuildings test is starting.
+[INFO ] 2024-05-02 12:22:37.158 [main] Log - createBuildings test is succeed.
+[INFO ] 2024-05-02 12:22:37.159 [main] Log - I am in onFinish method Create New Unit

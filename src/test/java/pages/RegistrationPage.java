@@ -8,11 +8,9 @@ import org.openqa.selenium.By;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.FindBy;
 import org.openqa.selenium.support.How;
-
-import java.awt.*;
-import java.io.IOException;
 import java.util.ArrayList;
-import static common.RandomUtils.generateRandomUsername;
+
+import static common.RandomUtils.RandomUsernameGenerator.generateRandomUsername;
 import static helper.globalProperties.driver;
 
 public class RegistrationPage{
@@ -102,7 +100,7 @@ public class RegistrationPage{
         WebElement elm_Email = seleniumHelper.waitForElement(attributes.UserInfromation.email, globalProperties.waitType.explicit,
                 globalProperties.expectedConditions.presenceOfElementLocated, 60, 2);
 
-        randomEmail = generateRandomUsername(5);
+        randomEmail = generateRandomUsername();
         seleniumHelper.setText(elm_Email, randomEmail+"@yopmail.com");
 
         WebElement elm_Verify = seleniumHelper.waitForElement(attributes.UserInfromation.verify, globalProperties.waitType.explicit,

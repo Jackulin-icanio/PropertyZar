@@ -7,7 +7,6 @@ import org.testng.Reporter;
 import org.testng.annotations.BeforeTest;
 import org.testng.annotations.Test;
 import pages.OnboardingPage;
-import common.commonFunctions;
 import java.io.IOException;
 
 import static helper.globalProperties.driver;
@@ -16,7 +15,6 @@ public class OnboardingTest {
 
     String baseUrl = globalProperties.getValueFromInputData("environment", "QABase");
     OnboardingPage onboardingPage = new OnboardingPage();
-    commonFunctions CommonFunctions = new commonFunctions();
 
     @BeforeTest
     public void initDriver() throws IOException {
